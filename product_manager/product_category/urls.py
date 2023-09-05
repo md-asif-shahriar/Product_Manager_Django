@@ -13,8 +13,8 @@ urlpatterns = [
     path('api/product-category/add/', views.addCategory, name="add-category"),
 
     path('api/product-category/update/<int:pk>/',
-         views.updateCategory, name="update-product"),
+         views.updateCategory, name="update-category"),
 
     path('api/product-category/delete/<int:pk>/',
-         views.deleteCategory, name="delete-product"),
+         views.deleteCategory, name="delete-category"),
 ]
